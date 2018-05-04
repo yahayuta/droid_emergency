@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">緊急連絡</string>
+    <string name="mail_subject">が助けを求めています</string>
+    <string name="mail_text">助けてください</string>
+    <string name="mail_no_gps">ＧＰＳデータがありません</string>
+    <string name="conf_cusmsg">カスタムメッセージ（任意）</string>
+    <string name="conf_name">あなたの名前（必須）</string>
+    <string name="conf_gmail_address">ＧＭＡＩＬアドレス（ＧＭＡＩＬアカウントが必要です）</string>
+    <string name="conf_mail1">緊急連絡メールアドレス１（必須）</string>
+    <string name="conf_mail2">緊急連絡メールアドレス２（任意）</string>
+    <string name="conf_mail3">緊急連絡メールアドレス３（任意）</string>
+    <string name="conf_mail4">緊急連絡メールアドレス４（任意）</string>
+    <string name="conf_mail5">緊急連絡メールアドレス５（任意）</string>
+    <string name="conf_gmail_passsword">ＧＭＡＩＬパスワード（ＧＭＡＩＬアカウントが必要です）</string>
+    <string name="conf_save">保存</string>
+    <string name="conf_test">テストメールの送信</string>
+    <string name="conf_title">緊急連絡先情報を編集します</string>
+    <string name="conf_act_save_msg">緊急連絡先情報を保存しました</string>
+    <string name="conf_err_name_msg">あなたの名前は入力必須です</string>
+    <string name="conf_err_gaddr_msg">ＧＭＡＩＬアドレスは入力必須です</string>
+    <string name="conf_err_gpass_msg">ＧＭＡＩＬパスワードは入力必須です</string>
+    <string name="conf_err_mail1_msg">緊急連絡メールアドレス１は入力必須です</string>
+    <string name="app_edit_name">連絡先編集</string>
+    <string name="widget_mail_sent">緊急連絡メールが送信されました</string>
+    <string name="widget_mail_error">メール送信エラー</string>
+    <string name="widget_info_needed">緊急連絡先情報を登録してください</string>
+    <string name="cmn_msg_no_network">ネットワーク接続がないためメールを送信できません</string>
+</resources>

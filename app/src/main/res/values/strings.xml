@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HELP ME</string>
+    <string name="mail_subject">NEEDS HELP!</string>
+    <string name="mail_text">HELP ME!!</string>
+    <string name="mail_no_gps">NO GPS DATA</string>
+    <string name="conf_cusmsg">CUSTOM MESSAGE(OPTIONAL)</string>
+    <string name="conf_name">YOUR NAME(REQUIRED)</string>
+    <string name="conf_gmail_address">YOUR GMAIL ADDRESS (GMAIL ACCOUNT IS REQUIRED FOR THIS APPLICATION)</string>
+    <string name="conf_mail1">MAIL ADDRESS 1(REQUIRED)</string>
+    <string name="conf_mail2">MAIL ADDRESS 2(OPTIONAL)</string>
+    <string name="conf_mail3">MAIL ADDRESS 3(OPTIONAL)</string>
+    <string name="conf_mail4">MAIL ADDRESS 4(OPTIONAL)</string>
+    <string name="conf_mail5">MAIL ADDRESS 5(OPTIONAL)</string>
+    <string name="conf_gmail_passsword">YOUR GMAIL PASSWORD (GMAIL ACCOUNT IS REQUIRED FOR THIS APPLICATION)</string>
+    <string name="conf_save">SAVE</string>
+    <string name="conf_test">SEND TEST MAIL</string>
+    <string name="conf_title">INPUT YOUR INFORMATION</string>
+    <string name="conf_act_save_msg">YOUR INFORMATION IS SAVED!</string>
+    <string name="conf_err_name_msg">YOUR NAME IS BLANK</string>
+    <string name="conf_err_gaddr_msg">YOUR GMAIL ADDRES IS BLANK</string>
+    <string name="conf_err_gpass_msg">YOUR GMAIL PASSWORD IS BLANK</string>
+    <string name="conf_err_mail1_msg">MAIL ADDRESS 1 IS BLANK</string>
+    <string name="app_edit_name">HELP ME EDIT</string>
+    <string name="widget_mail_sent">MAIL IS SENT</string>
+    <string name="widget_mail_error">MAIL TRANSPORT ERROR!!</string>
+    <string name="widget_info_needed">TO USE THIS APPLICATON, YOU NEED TO EDIT YOUR INFORMATION FIRST.</string>
+    <string name="cmn_msg_no_network">NO NETWORK CONNECTION, CANNOT SEND MAIL.</string>
+</resources>

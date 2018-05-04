@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/linearLayoutMain" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical">
+   	
+   	    <com.google.android.gms.ads.AdView
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/adView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    ads:adUnitId="ca-app-pub-4280826531916194/5464034703"
+    ads:adSize="SMART_BANNER"/>
+   	    
+   	<ScrollView android:id="@+id/ScrollView01" android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/linearLayoutSub" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical">
+		    <TextView
+		        android:id="@+id/textViewTitle"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/conf_title"
+		        android:textAppearance="?android:attr/textAppearanceLarge" />
+		    <Button
+		        android:id="@+id/buttonSave"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/conf_save" />
+		    <Button
+		        android:id="@+id/buttonTest"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/conf_test" />
+		    <TextView
+		        android:id="@+id/textViewCusMsg"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/conf_cusmsg" />
+		    <EditText
+		        android:id="@+id/editTextCusMsg"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content" >
+		        <requestFocus />
+		    </EditText>
+		    <TextView
+		        android:id="@+id/textViewName"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/conf_name" />
+		    <EditText
+		        android:id="@+id/editTextName"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content" >
+		    </EditText>
+		    <TextView
+		        android:id="@+id/textViewGmailAddr"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/conf_gmail_address" />
+		    <EditText
+		        android:id="@+id/editTextGmailAddr"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:inputType="textEmailAddress" >
+		    </EditText>
+		    <TextView
+		        android:id="@+id/textViewGmailPass"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/conf_gmail_passsword" />
+		    <EditText
+		        android:id="@+id/editTextGmailPass"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:inputType="textPassword" />
+		    <TextView
+		        android:id="@+id/textViewMail1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/conf_mail1" />
+		    <EditText
+		        android:id="@+id/editTextMail1"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content" 
+		        android:inputType="textEmailAddress">
+		    </EditText>
+		    <TextView
+		        android:id="@+id/textViewMail2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/conf_mail2" />
+		    <EditText
+		        android:id="@+id/editTextMail2"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:inputType="textEmailAddress" >
+		    </EditText>
+		    <TextView
+		        android:id="@+id/textViewMail3"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/conf_mail3" />
+		    <EditText
+		        android:id="@+id/editTextMail3"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content" 
+		        android:inputType="textEmailAddress">
+		    </EditText>
+		    <TextView
+		        android:id="@+id/textViewMail4"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/conf_mail4" />
+		    <EditText
+		        android:id="@+id/editTextMail4"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:inputType="textEmailAddress" >
+		    </EditText>
+		    <TextView
+		        android:id="@+id/textViewMail5"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/conf_mail5" />
+		    <EditText
+		        android:id="@+id/editTextMail5"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:inputType="textEmailAddress" >
+		    </EditText>
+	    </LinearLayout>
+    </ScrollView> 
+</LinearLayout>
