@@ -1,18 +1,5 @@
 package droid.emergency;
 
-import java.util.List;
-import java.util.Properties;
-
-import javax.activation.DataHandler;
-import javax.mail.Message;
-import javax.mail.Multipart;
-import javax.mail.Session;
-import javax.mail.Transport;
-import javax.mail.internet.InternetAddress;
-import javax.mail.internet.MimeBodyPart;
-import javax.mail.internet.MimeMessage;
-import javax.mail.internet.MimeMultipart;
-
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Notification;
@@ -33,8 +20,18 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
+import java.util.List;
+import java.util.Properties;
+
+import javax.activation.DataHandler;
+import javax.mail.Message;
+import javax.mail.Multipart;
+import javax.mail.Session;
+import javax.mail.Transport;
+import javax.mail.internet.InternetAddress;
+import javax.mail.internet.MimeBodyPart;
+import javax.mail.internet.MimeMessage;
+import javax.mail.internet.MimeMultipart;
 
 /**
  * Emergency設定画面
@@ -60,10 +57,6 @@ public class EmergencyActivity extends Activity implements OnClickListener, Loca
         
         // データのロード
         loadData();
-        
-        //AdView初期化
-        AdView adView = (AdView)this.findViewById(R.id.adView);
-        adView.loadAd(new AdRequest.Builder().build());
 	}
 	
 	@Override

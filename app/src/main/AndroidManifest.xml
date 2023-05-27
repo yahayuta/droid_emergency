@@ -2,16 +2,15 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="droid.emergency" android:versionCode="15" android:versionName="1.6.0">
     <uses-sdk android:minSdkVersion="9" />
     <application android:label="@string/app_name" android:icon="@drawable/emergency" android:allowTaskReparenting="true">
-    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
-    
-        <receiver android:name="droid.emergency.EmergencyAppWidgetProvider" android:label="@string/app_name">
+
+        <receiver android:name="droid.emergency.EmergencyAppWidgetProvider" android:exported="true" android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
-            <meta-data android:name="android.appwidget.provider" android:resource="@layout/widgetprop" />
+            <meta-data android:name="android.appwidget.provider" android:exported="true" android:resource="@layout/widgetprop" />
         </receiver>
 
-        <service android:name="droid.emergency.EmergencyService" android:label="EmergencyService">
+        <service android:name="droid.emergency.EmergencyService" android:exported="true" android:label="EmergencyService">
             <intent-filter>
                 <action android:name="droid.emergency.EmergencyService.ACTION_BTNCLICK" />
             </intent-filter>
@@ -20,15 +19,13 @@
         <provider android:name="droid.emergency.EmergencyContentProvider" android:authorities="droid.emergency.Emergency">
         </provider>
         
-        <activity android:name="EmergencyActivity" android:label="@string/app_edit_name">
+        <activity android:name="EmergencyActivity" android:exported="true" android:label="@string/app_edit_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        
-	<activity android:name="com.google.android.gms.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/> 
-        
+
     </application>
 	<uses-permission android:name="android.permission.INTERNET"/>
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
