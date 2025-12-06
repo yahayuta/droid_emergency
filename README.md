@@ -1,8 +1,8 @@
 # HELP ME - Emergency Android App
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Android](https://img.shields.io/badge/Android-API%2029+-green.svg)](https://developer.android.com/about/versions/android-10)
-[![Gradle](https://img.shields.io/badge/Gradle-8.9-blue.svg)](https://gradle.org/)
+[![Android](https://img.shields.io/badge/Android-API%2035-green.svg)](https://developer.android.com/about/versions/android-15)
+[![Gradle](https://img.shields.io/badge/Gradle-8.11-blue.svg)](https://gradle.org/)
 
 A lifesaving Android application that sends emergency emails with GPS location data to pre-configured contacts when you're in need of immediate help.
 
@@ -31,9 +31,10 @@ A lifesaving Android application that sends emergency emails with GPS location d
 
 ### Prerequisites
 
-- Android Studio Arctic Fox or later
-- Android SDK API 29+
-- Gradle 8.9
+- Android Studio Ladybug or later
+- Android SDK API 35
+- Gradle 8.11.1
+- JDK 21
 
 ### Building from Source
 
