@@ -1,0 +1,28 @@
+# Binaries for the Android project
+/android/
+
+# Binaries for the Flutter project
+/droid_emergency_flutter/build/
+/droid_emergency_flutter/.dart_tool/
+/droid_emergency_flutter/.flutter-plugins/
+/droid_emergency_flutter/.flutter-plugins-dependencies/
+/droid_emergency_flutter/.gradle/
+/droid_emergency_flutter/.idea/
+/droid_emergency_flutter/local.properties
+
+# Generic
+.DS_Store
+.env
+.idea/
+.vscode/
+build/
+.gradle/
+*.iml
+*.iws
+*.ipr
+*.bak
+*.swp
+*.swo
+*~
+*.log
+*.lock
